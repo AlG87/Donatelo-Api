@@ -1,0 +1,11 @@
+D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\bin\Debug\net8.0\Donatelo.Api.Entities.deps.json
+D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\bin\Debug\net8.0\Donatelo.Api.Entities.dll
+D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\bin\Debug\net8.0\Donatelo.Api.Entities.pdb
+D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\obj\Debug\net8.0\Donatelo.Api.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\obj\Debug\net8.0\Donatelo.Api.Entities.AssemblyInfoInputs.cache
+D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\obj\Debug\net8.0\Donatelo.Api.Entities.AssemblyInfo.cs
+D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\obj\Debug\net8.0\Donatelo.Api.Entities.csproj.CoreCompileInputs.cache
+D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\obj\Debug\net8.0\Donatelo.Api.Entities.dll
+D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\obj\Debug\net8.0\refint\Donatelo.Api.Entities.dll
+D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\obj\Debug\net8.0\Donatelo.Api.Entities.pdb
+D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\obj\Debug\net8.0\ref\Donatelo.Api.Entities.dll
