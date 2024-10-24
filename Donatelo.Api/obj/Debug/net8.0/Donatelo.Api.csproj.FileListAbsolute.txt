@@ -30,3 +30,4 @@ D:\VisualProjects\Donatelo.Api\Donatelo.Api\obj\Debug\net8.0\refint\Donatelo.Api
 D:\VisualProjects\Donatelo.Api\Donatelo.Api\obj\Debug\net8.0\Donatelo.Api.pdb
 D:\VisualProjects\Donatelo.Api\Donatelo.Api\obj\Debug\net8.0\Donatelo.Api.genruntimeconfig.cache
 D:\VisualProjects\Donatelo.Api\Donatelo.Api\obj\Debug\net8.0\ref\Donatelo.Api.dll
+D:\VisualProjects\Donatelo.Api\Donatelo.Api\obj\Debug\net8.0\Donatelo.Api.sourcelink.json

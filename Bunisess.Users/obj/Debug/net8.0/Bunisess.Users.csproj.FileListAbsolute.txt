@@ -1,0 +1,12 @@
+D:\VisualProjects\Donatelo.Api\Bunisess.Users\bin\Debug\net8.0\Bunisess.Users.deps.json
+D:\VisualProjects\Donatelo.Api\Bunisess.Users\bin\Debug\net8.0\Bunisess.Users.dll
+D:\VisualProjects\Donatelo.Api\Bunisess.Users\bin\Debug\net8.0\Bunisess.Users.pdb
+D:\VisualProjects\Donatelo.Api\Bunisess.Users\obj\Debug\net8.0\Bunisess.Users.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualProjects\Donatelo.Api\Bunisess.Users\obj\Debug\net8.0\Bunisess.Users.AssemblyInfoInputs.cache
+D:\VisualProjects\Donatelo.Api\Bunisess.Users\obj\Debug\net8.0\Bunisess.Users.AssemblyInfo.cs
+D:\VisualProjects\Donatelo.Api\Bunisess.Users\obj\Debug\net8.0\Bunisess.Users.csproj.CoreCompileInputs.cache
+D:\VisualProjects\Donatelo.Api\Bunisess.Users\obj\Debug\net8.0\Bunisess.Users.sourcelink.json
+D:\VisualProjects\Donatelo.Api\Bunisess.Users\obj\Debug\net8.0\Bunisess.Users.dll
+D:\VisualProjects\Donatelo.Api\Bunisess.Users\obj\Debug\net8.0\refint\Bunisess.Users.dll
+D:\VisualProjects\Donatelo.Api\Bunisess.Users\obj\Debug\net8.0\Bunisess.Users.pdb
+D:\VisualProjects\Donatelo.Api\Bunisess.Users\obj\Debug\net8.0\ref\Bunisess.Users.dll

@@ -6,4 +6,9 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ConexionBD\ConexionBD.csproj" />
+    <ProjectReference Include="..\Donatelo.Api.Entities\Donatelo.Api.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

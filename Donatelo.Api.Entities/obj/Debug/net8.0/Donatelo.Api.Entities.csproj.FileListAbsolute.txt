@@ -9,3 +9,4 @@ D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\obj\Debug\net8.0\Donatelo.A
 D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\obj\Debug\net8.0\refint\Donatelo.Api.Entities.dll
 D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\obj\Debug\net8.0\Donatelo.Api.Entities.pdb
 D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\obj\Debug\net8.0\ref\Donatelo.Api.Entities.dll
+D:\VisualProjects\Donatelo.Api\Donatelo.Api.Entities\obj\Debug\net8.0\Donatelo.Api.Entities.sourcelink.json

@@ -1,0 +1,12 @@
+D:\VisualProjects\Donatelo.Api\Data.Donations\bin\Debug\net8.0\Data.Donations.deps.json
+D:\VisualProjects\Donatelo.Api\Data.Donations\bin\Debug\net8.0\Data.Donations.dll
+D:\VisualProjects\Donatelo.Api\Data.Donations\bin\Debug\net8.0\Data.Donations.pdb
+D:\VisualProjects\Donatelo.Api\Data.Donations\obj\Debug\net8.0\Data.Donations.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualProjects\Donatelo.Api\Data.Donations\obj\Debug\net8.0\Data.Donations.AssemblyInfoInputs.cache
+D:\VisualProjects\Donatelo.Api\Data.Donations\obj\Debug\net8.0\Data.Donations.AssemblyInfo.cs
+D:\VisualProjects\Donatelo.Api\Data.Donations\obj\Debug\net8.0\Data.Donations.csproj.CoreCompileInputs.cache
+D:\VisualProjects\Donatelo.Api\Data.Donations\obj\Debug\net8.0\Data.Donations.sourcelink.json
+D:\VisualProjects\Donatelo.Api\Data.Donations\obj\Debug\net8.0\Data.Donations.dll
+D:\VisualProjects\Donatelo.Api\Data.Donations\obj\Debug\net8.0\refint\Data.Donations.dll
+D:\VisualProjects\Donatelo.Api\Data.Donations\obj\Debug\net8.0\Data.Donations.pdb
+D:\VisualProjects\Donatelo.Api\Data.Donations\obj\Debug\net8.0\ref\Data.Donations.dll

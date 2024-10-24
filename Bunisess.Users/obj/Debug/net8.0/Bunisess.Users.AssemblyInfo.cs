@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bunisess.Users")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5646dcf2880852b0cb443956a1f8f56dde25ef1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a9e433b448ea9be441bd400d47c0a3ec7d103fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bunisess.Users")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bunisess.Users")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

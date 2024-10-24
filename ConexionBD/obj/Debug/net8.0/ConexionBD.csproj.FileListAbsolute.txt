@@ -1,0 +1,6 @@
+D:\VisualProjects\Donatelo.Api\ConexionBD\obj\Debug\net8.0\ConexionBD.csproj.AssemblyReference.cache
+D:\VisualProjects\Donatelo.Api\ConexionBD\obj\Debug\net8.0\ConexionBD.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualProjects\Donatelo.Api\ConexionBD\obj\Debug\net8.0\ConexionBD.AssemblyInfoInputs.cache
+D:\VisualProjects\Donatelo.Api\ConexionBD\obj\Debug\net8.0\ConexionBD.AssemblyInfo.cs
+D:\VisualProjects\Donatelo.Api\ConexionBD\obj\Debug\net8.0\ConexionBD.csproj.CoreCompileInputs.cache
+D:\VisualProjects\Donatelo.Api\ConexionBD\obj\Debug\net8.0\ConexionBD.sourcelink.json
