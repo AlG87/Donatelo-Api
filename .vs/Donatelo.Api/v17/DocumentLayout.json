@@ -1,16 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\VisualProjects\\Donatelo.Api\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{CE086C83-8D84-41E7-8708-5B779E032FA0}|Data.Users\\Data.Users.csproj|d:\\visualprojects\\donatelo.api\\data.users\\datausercreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE086C83-8D84-41E7-8708-5B779E032FA0}|Data.Users\\Data.Users.csproj|solutionrelative:data.users\\datausercreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E875AB36-55ED-4744-BD24-D91EF397C386}|ConexionBD\\ConexionBD.csproj|d:\\visualprojects\\donatelo.api\\conexionbd\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E875AB36-55ED-4744-BD24-D91EF397C386}|ConexionBD\\ConexionBD.csproj|solutionrelative:conexionbd\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\entrnace2\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,33 +9,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataUserCreate.cs",
-              "DocumentMoniker": "D:\\VisualProjects\\Donatelo.Api\\Data.Users\\DataUserCreate.cs",
-              "RelativeDocumentMoniker": "Data.Users\\DataUserCreate.cs",
-              "ToolTip": "D:\\VisualProjects\\Donatelo.Api\\Data.Users\\DataUserCreate.cs",
-              "RelativeToolTip": "Data.Users\\DataUserCreate.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBYAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T18:18:49.715Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "D:\\VisualProjects\\Donatelo.Api\\ConexionBD\\Conexion.cs",
-              "RelativeDocumentMoniker": "ConexionBD\\Conexion.cs",
-              "ToolTip": "D:\\VisualProjects\\Donatelo.Api\\ConexionBD\\Conexion.cs",
-              "RelativeToolTip": "ConexionBD\\Conexion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:40:24.417Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

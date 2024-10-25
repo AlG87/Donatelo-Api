@@ -1,0 +1,67 @@
+25/10/2024 12:10:33 p. m.: FATAL: System.ArgumentException: El correo es obligatorio.
+   at Bunisess.Users.BusinessUserCreate.Validate() in C:\Users\asus\Desktop\entrnace2\Bunisess.Users\BusinessUserCreate.cs:line 27
+   at ConexionBD.BusinessStrategy.Execute() in C:\Users\asus\Desktop\entrnace2\ConexionBD\BusinessStrategy.cs:line 20
+25/10/2024 12:16:17 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__usuarios__60695A19C4C24314'. Cannot insert duplicate key in object 'dbo.usuarios'. The duplicate key value is (juanchi@hgmail}.com).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters)
+   at Data.Users.DataUserCreate.Process() in C:\Users\asus\Desktop\entrnace2\Data.Users\DataUserCreate.cs:line 30
+   at ConexionBD.DataStrategy.Execute()
+ClientConnectionId:53d06e77-1239-40ae-a0b3-62ffb156cea6
+Error Number:2627,State:1,Class:14
+25/10/2024 12:16:24 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__usuarios__60695A19C4C24314'. Cannot insert duplicate key in object 'dbo.usuarios'. The duplicate key value is (juanchi@hgmail}.com).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters)
+   at Data.Users.DataUserCreate.Process() in C:\Users\asus\Desktop\entrnace2\Data.Users\DataUserCreate.cs:line 30
+   at ConexionBD.DataStrategy.Execute()
+ClientConnectionId:53d06e77-1239-40ae-a0b3-62ffb156cea6
+Error Number:2627,State:1,Class:14
+25/10/2024 12:16:31 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__usuarios__60695A19C4C24314'. Cannot insert duplicate key in object 'dbo.usuarios'. The duplicate key value is (juanchi@hgmail}.com).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters)
+   at Data.Users.DataUserCreate.Process() in C:\Users\asus\Desktop\entrnace2\Data.Users\DataUserCreate.cs:line 30
+   at ConexionBD.DataStrategy.Execute()
+ClientConnectionId:53d06e77-1239-40ae-a0b3-62ffb156cea6
+Error Number:2627,State:1,Class:14
+25/10/2024 12:16:37 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__usuarios__60695A19C4C24314'. Cannot insert duplicate key in object 'dbo.usuarios'. The duplicate key value is (juanchi@hgmail}.com).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters)
+   at Data.Users.DataUserCreate.Process() in C:\Users\asus\Desktop\entrnace2\Data.Users\DataUserCreate.cs:line 30
+   at ConexionBD.DataStrategy.Execute()
+ClientConnectionId:53d06e77-1239-40ae-a0b3-62ffb156cea6
+Error Number:2627,State:1,Class:14
