@@ -12,7 +12,7 @@ namespace Donatelo.Api.Entities
         public string Nombre { get; set; }
         public string Correo { get; set; }
         public string Contraseña { get; set; }
-        public string Rol { get; set; }
+        public int Rol { get; set; }
         public string ImagenUrl { get; set; }
     }
 }

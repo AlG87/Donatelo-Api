@@ -10,4 +10,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Bunisess.Users\Bunisess.Users.csproj" />
+    <ProjectReference Include="..\ConexionBD\ConexionBD.csproj" />
+    <ProjectReference Include="..\Data.Users\Data.Users.csproj" />
+    <ProjectReference Include="..\Donatelo.Api.Entities\Donatelo.Api.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,34 +1,36 @@
 ﻿using ConexionBD;
 using Donatelo.Api.Entities;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 
 namespace Data.Users
 {
-    public class DataUserCreate
+    public class DataUserCreate : Conexion
     {
-        
-        Conexion con = new Conexion();
-        //readonly string str = con.getStringDeConexion();
-        //SqlConnection conexion = new SqlConnection(str);
-        UsuarioDto user;
+        private readonly UsuarioDto user;
+
         public DataUserCreate(UsuarioDto user)
         {
-
             this.user = user;
         }
-        protected override void Process()
+        public override void Process()
         {
-            string query = @"insert into usuarios (nombre,correo,contraseña,rol) 
-                            values('@Nombre','@correo','@contraseña','@rol')";
+            string query = @"INSERT INTO usuarios (Nombre, Correo, Contraseña, Rol,ImagenUrl) 
+                         VALUES (@nombre, @correo, @contraseña, @rol,@ImagenUrl)";
+
             Dictionary<string, object> parameters = new Dictionary<string, object>
             {
-                { "@nombre",user.Nombre },
-                { "@correo",user.Correo},
-                {"@contraseña",user.Contraseña },
-                {"@rol",user.Rol }
+                { "@nombre", user.Nombre },
+                { "@correo", user.Correo },
+                { "@contraseña", user.Contraseña },
+                { "@rol", user.Rol },
+                { "@ImagenUrl", user.ImagenUrl }
             };
-            //List<Object[]> result = con.
+            int result = ExecuteNonQuery(query, parameters);
+
+            SetResult(result);
         }
     }
+
 }
