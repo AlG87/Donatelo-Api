@@ -48,7 +48,7 @@ namespace ConexionBD
         {
             get
             {
-                if (State == StateStrategy.Exception)
+                if (State != StateStrategy.Exception)
                 {
                     return error;
                 }

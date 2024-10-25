@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -12,7 +13,7 @@ namespace ConexionBD
         {
             var constructorDeString = new SqlConnectionStringBuilder
             {
-                DataSource = "DESKTOP-6EOFKQM\\ig",
+                DataSource = "DESKTOP-LBD131F\\SQLEXPRESS",
                 InitialCatalog = "DonateloDbOficial",
                 IntegratedSecurity = true,
                 TrustServerCertificate = true
@@ -67,6 +68,42 @@ namespace ConexionBD
             }
 
             return affectedRows;
+        }
+        protected List<object[]> ExecuteQuery(string query, Dictionary<string, object> parameters = null)
+        {
+            List<object[]> results = new List<object[]>();
+
+            try
+            {
+                OpenConnection();
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    if (parameters != null)
+                    {
+                        foreach (var param in parameters)
+                        {
+                            command.Parameters.AddWithValue(param.Key, param.Value);
+                        }
+                    }
+
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            object[] row = new object[reader.FieldCount];
+                            reader.GetValues(row);
+                            results.Add(row);
+                        }
+                    }
+                }
+            }
+            finally
+            {
+                CloseConnection();
+            }
+
+            return results;
         }
 
     }

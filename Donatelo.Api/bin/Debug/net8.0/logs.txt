@@ -65,3 +65,70 @@ The statement has been terminated.
    at ConexionBD.DataStrategy.Execute()
 ClientConnectionId:53d06e77-1239-40ae-a0b3-62ffb156cea6
 Error Number:2627,State:1,Class:14
+25/10/2024 1:53:55 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ConexionBD.Conexion.OpenConnection() in C:\Users\asus\Desktop\entrnace2\ConexionBD\Conexion.cs:line 32
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters) in C:\Users\asus\Desktop\entrnace2\ConexionBD\Conexion.cs:line 51
+   at Data.Users.DataUserCreate.Process() in C:\Users\asus\Desktop\entrnace2\Data.Users\DataUserCreate.cs:line 30
+   at ConexionBD.DataStrategy.Execute() in C:\Users\asus\Desktop\entrnace2\ConexionBD\DataStrategy.cs:line 20
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+25/10/2024 3:49:50 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): Debe declarar la variable escalar '@nombre'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters) in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\Conexion.cs:line 62
+   at Data.Users.DataUserUpdateById.Process() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\Data.Users\DataUserUpdateById.cs:line 37
+   at ConexionBD.DataStrategy.Execute() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\DataStrategy.cs:line 20
+ClientConnectionId:b131e609-afc7-41ba-a4aa-a63cebeff65d
+Error Number:137,State:2,Class:15
+25/10/2024 3:49:50 p. m.: FATAL: ConexionBD.StrategyException: El proceso no finalizó en excepción
+   at ConexionBD.MainStrategy.get_Exception() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\MainStrategy.cs:line 56
+   at Donatelo.Api.CommonController.Execute(MainStrategy mainStrategy) in D:\VisualProjects\Donatelo.Api\Donatelo-Api\Donatelo.Api\CommonController.cs:line 30
+25/10/2024 4:10:22 p. m.: FATAL: System.ArgumentException: El correo es obligatorio.
+   at Bunisess.Users.BusinessuserUpadteById.Validate() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\Bunisess.Users\BusinessuserUpadteById.cs:line 22
+   at ConexionBD.BusinessStrategy.Execute() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\BusinessStrategy.cs:line 19
+25/10/2024 4:10:22 p. m.: FATAL: ConexionBD.StrategyException: El proceso no finalizó en excepción
+   at ConexionBD.MainStrategy.get_Exception() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\MainStrategy.cs:line 56
+   at Donatelo.Api.CommonController.Execute(MainStrategy mainStrategy) in D:\VisualProjects\Donatelo.Api\Donatelo-Api\Donatelo.Api\CommonController.cs:line 30
+25/10/2024 4:12:33 p. m.: FATAL: System.ArgumentException: El correo es obligatorio.
+   at Bunisess.Users.BusinessuserUpadteById.Validate() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\Bunisess.Users\BusinessuserUpadteById.cs:line 22
+   at ConexionBD.BusinessStrategy.Execute() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\BusinessStrategy.cs:line 19
+25/10/2024 4:12:33 p. m.: FATAL: ConexionBD.StrategyException: El proceso no finalizó en excepción
+   at ConexionBD.MainStrategy.get_Exception() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\MainStrategy.cs:line 56
+   at Donatelo.Api.CommonController.Execute(MainStrategy mainStrategy) in D:\VisualProjects\Donatelo.Api\Donatelo-Api\Donatelo.Api\CommonController.cs:line 30
+25/10/2024 4:13:34 p. m.: FATAL: System.ArgumentException: El correo es obligatorio.
+   at Bunisess.Users.BusinessuserUpadteById.Validate() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\Bunisess.Users\BusinessuserUpadteById.cs:line 22
+   at ConexionBD.BusinessStrategy.Execute() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\BusinessStrategy.cs:line 19
+25/10/2024 4:13:34 p. m.: FATAL: ConexionBD.StrategyException: El proceso no finalizó en excepción
+   at ConexionBD.MainStrategy.get_Exception() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\MainStrategy.cs:line 56
+   at Donatelo.Api.CommonController.Execute(MainStrategy mainStrategy) in D:\VisualProjects\Donatelo.Api\Donatelo-Api\Donatelo.Api\CommonController.cs:line 30
+25/10/2024 4:14:20 p. m.: FATAL: System.ArgumentException: El correo es obligatorio.
+   at Bunisess.Users.BusinessuserUpadteById.Validate() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\Bunisess.Users\BusinessuserUpadteById.cs:line 22
+   at ConexionBD.BusinessStrategy.Execute() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\BusinessStrategy.cs:line 19
+25/10/2024 4:14:20 p. m.: FATAL: ConexionBD.StrategyException: El proceso no finalizó en excepción
+   at ConexionBD.MainStrategy.get_Exception() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\MainStrategy.cs:line 56
+   at Donatelo.Api.CommonController.Execute(MainStrategy mainStrategy) in D:\VisualProjects\Donatelo.Api\Donatelo-Api\Donatelo.Api\CommonController.cs:line 30
+25/10/2024 4:17:38 p. m.: FATAL: System.ArgumentException: El correo es obligatorio.
+   at Bunisess.Users.BusinessuserUpadteById.Validate() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\Bunisess.Users\BusinessuserUpadteById.cs:line 22
+   at ConexionBD.BusinessStrategy.Execute() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\BusinessStrategy.cs:line 19
+25/10/2024 4:17:38 p. m.: FATAL: ConexionBD.StrategyException: El proceso no finalizó en excepción
+   at ConexionBD.MainStrategy.get_Exception() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\MainStrategy.cs:line 56
+   at Donatelo.Api.CommonController.Execute(MainStrategy mainStrategy) in D:\VisualProjects\Donatelo.Api\Donatelo-Api\Donatelo.Api\CommonController.cs:line 30

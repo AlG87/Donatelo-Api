@@ -17,7 +17,7 @@ namespace ConexionBD
             try
             {
                 Validate();
-                if (State == StateStrategy.Execution)
+                if (State != StateStrategy.Execution)
                 {
                     Process();
                 }

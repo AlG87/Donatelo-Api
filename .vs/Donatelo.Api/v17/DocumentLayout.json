@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\asus\\Desktop\\entrnace2\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\VisualProjects\\Donatelo.Api\\Donatelo-Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE086C83-8D84-41E7-8708-5B779E032FA0}|Data.Users\\Data.Users.csproj|d:\\visualprojects\\donatelo.api\\donatelo-api\\data.users\\datauserupdatebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE086C83-8D84-41E7-8708-5B779E032FA0}|Data.Users\\Data.Users.csproj|solutionrelative:data.users\\datauserupdatebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E330283-B0A7-4C83-B86F-FD8EFD523E5A}|Bunisess.Users\\Bunisess.Users.csproj|d:\\visualprojects\\donatelo.api\\donatelo-api\\bunisess.users\\businessuserupadtebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E330283-B0A7-4C83-B86F-FD8EFD523E5A}|Bunisess.Users\\Bunisess.Users.csproj|solutionrelative:bunisess.users\\businessuserupadtebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{672D6B87-FD8F-4DA7-B6B0-AD582A44E10A}|Donatelo.Api\\Donatelo.Api.csproj|d:\\visualprojects\\donatelo.api\\donatelo-api\\donatelo.api\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{672D6B87-FD8F-4DA7-B6B0-AD582A44E10A}|Donatelo.Api\\Donatelo.Api.csproj|solutionrelative:donatelo.api\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E875AB36-55ED-4744-BD24-D91EF397C386}|ConexionBD\\ConexionBD.csproj|d:\\visualprojects\\donatelo.api\\donatelo-api\\conexionbd\\businessstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E875AB36-55ED-4744-BD24-D91EF397C386}|ConexionBD\\ConexionBD.csproj|solutionrelative:conexionbd\\businessstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,31 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BusinessStrategy.cs",
+              "DocumentMoniker": "D:\\VisualProjects\\Donatelo.Api\\Donatelo-Api\\ConexionBD\\BusinessStrategy.cs",
+              "RelativeDocumentMoniker": "ConexionBD\\BusinessStrategy.cs",
+              "ToolTip": "D:\\VisualProjects\\Donatelo.Api\\Donatelo-Api\\ConexionBD\\BusinessStrategy.cs",
+              "RelativeToolTip": "ConexionBD\\BusinessStrategy.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvx8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T21:16:23.313Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\VisualProjects\\Donatelo.Api\\Donatelo-Api\\Donatelo.Api\\Controllers\\Users\\UserController.cs",
+              "RelativeDocumentMoniker": "Donatelo.Api\\Controllers\\Users\\UserController.cs",
+              "ToolTip": "D:\\VisualProjects\\Donatelo.Api\\Donatelo-Api\\Donatelo.Api\\Controllers\\Users\\UserController.cs",
+              "RelativeToolTip": "Donatelo.Api\\Controllers\\Users\\UserController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wCkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T20:47:15.478Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BusinessuserUpadteById.cs",
+              "DocumentMoniker": "D:\\VisualProjects\\Donatelo.Api\\Donatelo-Api\\Bunisess.Users\\BusinessuserUpadteById.cs",
+              "RelativeDocumentMoniker": "Bunisess.Users\\BusinessuserUpadteById.cs",
+              "ToolTip": "D:\\VisualProjects\\Donatelo.Api\\Donatelo-Api\\Bunisess.Users\\BusinessuserUpadteById.cs",
+              "RelativeToolTip": "Bunisess.Users\\BusinessuserUpadteById.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T20:45:48.453Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataUserUpdateById.cs",
+              "DocumentMoniker": "D:\\VisualProjects\\Donatelo.Api\\Donatelo-Api\\Data.Users\\DataUserUpdateById.cs",
+              "RelativeDocumentMoniker": "Data.Users\\DataUserUpdateById.cs",
+              "ToolTip": "D:\\VisualProjects\\Donatelo.Api\\Donatelo-Api\\Data.Users\\DataUserUpdateById.cs",
+              "RelativeToolTip": "Data.Users\\DataUserUpdateById.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwBEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T20:23:33.885Z",
+              "EditorCaption": ""
             }
           ]
         }
