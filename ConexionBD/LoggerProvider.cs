@@ -11,22 +11,22 @@ namespace ConexionBD
 
     public class LoggerProvider
     {
-        private static readonly Lazy<LoggerProvider> _instance = new Lazy<LoggerProvider>(() => new LoggerProvider());
-        private readonly string _logFilePath;
+        private static readonly Lazy<LoggerProvider> instance = new Lazy<LoggerProvider>(() => new LoggerProvider());
+        private readonly string logFilePath;
 
         private LoggerProvider()
         {
-            _logFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs.txt");
-            if (!File.Exists(_logFilePath))
+            logFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs.txt");
+            if (!File.Exists(logFilePath))
             {
-                File.Create(_logFilePath).Dispose();
+                File.Create(logFilePath).Dispose();
             }
         }
         public static void Information(string message)
         {
             Console.WriteLine($"INFO: {message}");
         }
-        public static LoggerProvider Instance => _instance.Value;
+        public static LoggerProvider Instance => instance.Value;
         public static void Fatal(string message)
         {
             Instance.Log($"FATAL: {message}");
@@ -35,7 +35,7 @@ namespace ConexionBD
         {
             try
             {
-                using (var writer = new StreamWriter(_logFilePath, true))
+                using (var writer = new StreamWriter(logFilePath, true))
                 {
                     writer.WriteLine($"{DateTime.Now}: {message}");
                 }
