@@ -43,3 +43,16 @@ C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\obj\Debug\net8.0\ConexionB
 C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\obj\Debug\net8.0\refint\ConexionBD.dll
 C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\obj\Debug\net8.0\ConexionBD.pdb
 C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\obj\Debug\net8.0\ref\ConexionBD.dll
+D:\VisualProjects\Donatelo-Api\ConexionBD\bin\Debug\net8.0\ConexionBD.deps.json
+D:\VisualProjects\Donatelo-Api\ConexionBD\bin\Debug\net8.0\ConexionBD.dll
+D:\VisualProjects\Donatelo-Api\ConexionBD\bin\Debug\net8.0\ConexionBD.pdb
+D:\VisualProjects\Donatelo-Api\ConexionBD\obj\Debug\net8.0\ConexionBD.csproj.AssemblyReference.cache
+D:\VisualProjects\Donatelo-Api\ConexionBD\obj\Debug\net8.0\ConexionBD.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualProjects\Donatelo-Api\ConexionBD\obj\Debug\net8.0\ConexionBD.AssemblyInfoInputs.cache
+D:\VisualProjects\Donatelo-Api\ConexionBD\obj\Debug\net8.0\ConexionBD.AssemblyInfo.cs
+D:\VisualProjects\Donatelo-Api\ConexionBD\obj\Debug\net8.0\ConexionBD.csproj.CoreCompileInputs.cache
+D:\VisualProjects\Donatelo-Api\ConexionBD\obj\Debug\net8.0\ConexionBD.sourcelink.json
+D:\VisualProjects\Donatelo-Api\ConexionBD\obj\Debug\net8.0\ConexionBD.dll
+D:\VisualProjects\Donatelo-Api\ConexionBD\obj\Debug\net8.0\refint\ConexionBD.dll
+D:\VisualProjects\Donatelo-Api\ConexionBD\obj\Debug\net8.0\ConexionBD.pdb
+D:\VisualProjects\Donatelo-Api\ConexionBD\obj\Debug\net8.0\ref\ConexionBD.dll

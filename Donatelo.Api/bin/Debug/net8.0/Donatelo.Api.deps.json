@@ -9,6 +9,7 @@
       "Donatelo.Api/1.0.0": {
         "dependencies": {
           "Bunisess.Users": "1.0.0",
+          "Business.Publications": "1.0.0",
           "ConexionBD": "1.0.0",
           "Data.Users": "1.0.0",
           "Donatelo.Api.Entities": "1.0.0",
@@ -150,12 +151,31 @@
           "Bunisess.Users.dll": {}
         }
       },
+      "Business.Publications/1.0.0": {
+        "dependencies": {
+          "ConexionBD": "1.0.0",
+          "Data.Publications": "1.0.0",
+          "Donatelo.Api.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Business.Publications.dll": {}
+        }
+      },
       "ConexionBD/1.0.0": {
         "dependencies": {
           "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {
           "ConexionBD.dll": {}
+        }
+      },
+      "Data.Publications/1.0.0": {
+        "dependencies": {
+          "ConexionBD": "1.0.0",
+          "Donatelo.Api.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Data.Publications.dll": {}
         }
       },
       "Data.Users/1.0.0": {
@@ -290,7 +310,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Business.Publications/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "ConexionBD/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data.Publications/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -13,7 +13,7 @@ namespace ConexionBD
         {
             var constructorDeString = new SqlConnectionStringBuilder
             {
-                DataSource = "DESKTOP-6EOFKQM\\ig",
+                DataSource = "DESKTOP-LBD131F\\SQLEXPRESS",
                 InitialCatalog = "DonateloDbOficial",
                 IntegratedSecurity = true,
                 TrustServerCertificate = true

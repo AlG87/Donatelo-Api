@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VisualProjects\\Donatelo-Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{672D6B87-FD8F-4DA7-B6B0-AD582A44E10A}|Donatelo.Api\\Donatelo.Api.csproj|d:\\visualprojects\\donatelo-api\\donatelo.api\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{672D6B87-FD8F-4DA7-B6B0-AD582A44E10A}|Donatelo.Api\\Donatelo.Api.csproj|solutionrelative:donatelo.api\\controllers\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{672D6B87-FD8F-4DA7-B6B0-AD582A44E10A}|Donatelo.Api\\Donatelo.Api.csproj|d:\\visualprojects\\donatelo-api\\donatelo.api\\controllers\\publications\\publicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{672D6B87-FD8F-4DA7-B6B0-AD582A44E10A}|Donatelo.Api\\Donatelo.Api.csproj|solutionrelative:donatelo.api\\controllers\\publications\\publicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C18FF40-1DA1-4900-B186-7BFE8E67C836}|Data.Publications\\Data.Publications.csproj|d:\\visualprojects\\donatelo-api\\data.publications\\datapublicationcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C18FF40-1DA1-4900-B186-7BFE8E67C836}|Data.Publications\\Data.Publications.csproj|solutionrelative:data.publications\\datapublicationcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1772611D-DC2B-4794-8662-EFE2E9879B56}|Business.Publications\\Business.Publications.csproj|d:\\visualprojects\\donatelo-api\\business.publications\\businesspublicationcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1772611D-DC2B-4794-8662-EFE2E9879B56}|Business.Publications\\Business.Publications.csproj|solutionrelative:business.publications\\businesspublicationcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\VisualProjects\\Donatelo-Api\\Donatelo.Api\\Controllers\\Users\\UserController.cs",
+              "RelativeDocumentMoniker": "Donatelo.Api\\Controllers\\Users\\UserController.cs",
+              "ToolTip": "D:\\VisualProjects\\Donatelo-Api\\Donatelo.Api\\Controllers\\Users\\UserController.cs",
+              "RelativeToolTip": "Donatelo.Api\\Controllers\\Users\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:03:34.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PublicationController.cs",
+              "DocumentMoniker": "D:\\VisualProjects\\Donatelo-Api\\Donatelo.Api\\Controllers\\Publications\\PublicationController.cs",
+              "RelativeDocumentMoniker": "Donatelo.Api\\Controllers\\Publications\\PublicationController.cs",
+              "ToolTip": "D:\\VisualProjects\\Donatelo-Api\\Donatelo.Api\\Controllers\\Publications\\PublicationController.cs",
+              "RelativeToolTip": "Donatelo.Api\\Controllers\\Publications\\PublicationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T20:05:42.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BusinessPublicationCreate.cs",
+              "DocumentMoniker": "D:\\VisualProjects\\Donatelo-Api\\Business.Publications\\BusinessPublicationCreate.cs",
+              "RelativeDocumentMoniker": "Business.Publications\\BusinessPublicationCreate.cs",
+              "ToolTip": "D:\\VisualProjects\\Donatelo-Api\\Business.Publications\\BusinessPublicationCreate.cs",
+              "RelativeToolTip": "Business.Publications\\BusinessPublicationCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T20:17:56.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataPublicationCreate.cs",
+              "DocumentMoniker": "D:\\VisualProjects\\Donatelo-Api\\Data.Publications\\DataPublicationCreate.cs",
+              "RelativeDocumentMoniker": "Data.Publications\\DataPublicationCreate.cs",
+              "ToolTip": "D:\\VisualProjects\\Donatelo-Api\\Data.Publications\\DataPublicationCreate.cs",
+              "RelativeToolTip": "Data.Publications\\DataPublicationCreate.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T20:11:39.042Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

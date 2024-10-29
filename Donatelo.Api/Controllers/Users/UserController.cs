@@ -1,6 +1,4 @@
 ﻿using Bunisess.Users;
-using ConexionBD;
-using Data.Users;
 using Donatelo.Api.Entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,7 +6,7 @@ namespace Donatelo.Api.Controllers.Users
 {
     public class UserController : CommonController
     {
-       
+
         [HttpPost]
         [Route("Create")]
         public IActionResult Create(UsuarioDto user)
@@ -39,6 +37,14 @@ namespace Donatelo.Api.Controllers.Users
         {
             BusinessuserUpadteById businessuserUpadteById = new BusinessuserUpadteById(user);
             return Execute(businessuserUpadteById);
+        }
+
+        [HttpDelete]
+        [Route("Delete")]
+        public IActionResult DeleteById(int id)
+        {
+            businessUserDeleteById businessUserDeleteById = new businessUserDeleteById(id);
+            return Execute(businessUserDeleteById);
         }
 
     }

@@ -227,3 +227,93 @@ The statement has been terminated.
    at ConexionBD.DataStrategy.Execute() in C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\DataStrategy.cs:line 20
 ClientConnectionId:dc825934-f70e-47f8-b621-fb9962792426
 Error Number:547,State:0,Class:16
+29/10/2024 2:57:03 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): Sintaxis incorrecta cerca de '*'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters) in D:\VisualProjects\Donatelo-Api\ConexionBD\Conexion.cs:line 62
+   at Data.Users.DatauserDeleteById.Process() in D:\VisualProjects\Donatelo-Api\Data.Users\DatauserDeleteById.cs:line 23
+   at ConexionBD.DataStrategy.Execute() in D:\VisualProjects\Donatelo-Api\ConexionBD\DataStrategy.cs:line 20
+ClientConnectionId:cf228960-c358-4368-907d-56a1b14ea806
+Error Number:102,State:1,Class:15
+29/10/2024 2:57:03 p. m.: FATAL: ConexionBD.StrategyException: El proceso no finalizó en excepción
+   at ConexionBD.MainStrategy.get_Exception() in D:\VisualProjects\Donatelo-Api\ConexionBD\MainStrategy.cs:line 56
+   at Donatelo.Api.CommonController.Execute(MainStrategy mainStrategy) in D:\VisualProjects\Donatelo-Api\Donatelo.Api\CommonController.cs:line 30
+29/10/2024 2:57:25 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): Sintaxis incorrecta cerca de '*'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters) in D:\VisualProjects\Donatelo-Api\ConexionBD\Conexion.cs:line 62
+   at Data.Users.DatauserDeleteById.Process() in D:\VisualProjects\Donatelo-Api\Data.Users\DatauserDeleteById.cs:line 23
+   at ConexionBD.DataStrategy.Execute() in D:\VisualProjects\Donatelo-Api\ConexionBD\DataStrategy.cs:line 20
+ClientConnectionId:cf228960-c358-4368-907d-56a1b14ea806
+Error Number:102,State:1,Class:15
+29/10/2024 2:57:25 p. m.: FATAL: ConexionBD.StrategyException: El proceso no finalizó en excepción
+   at ConexionBD.MainStrategy.get_Exception() in D:\VisualProjects\Donatelo-Api\ConexionBD\MainStrategy.cs:line 56
+   at Donatelo.Api.CommonController.Execute(MainStrategy mainStrategy) in D:\VisualProjects\Donatelo-Api\Donatelo.Api\CommonController.cs:line 30
+29/10/2024 2:57:25 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): Sintaxis incorrecta cerca de '*'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters) in D:\VisualProjects\Donatelo-Api\ConexionBD\Conexion.cs:line 62
+   at Data.Users.DatauserDeleteById.Process() in D:\VisualProjects\Donatelo-Api\Data.Users\DatauserDeleteById.cs:line 23
+   at ConexionBD.DataStrategy.Execute() in D:\VisualProjects\Donatelo-Api\ConexionBD\DataStrategy.cs:line 20
+ClientConnectionId:cf228960-c358-4368-907d-56a1b14ea806
+Error Number:102,State:1,Class:15
+29/10/2024 2:57:25 p. m.: FATAL: ConexionBD.StrategyException: El proceso no finalizó en excepción
+   at ConexionBD.MainStrategy.get_Exception() in D:\VisualProjects\Donatelo-Api\ConexionBD\MainStrategy.cs:line 56
+   at Donatelo.Api.CommonController.Execute(MainStrategy mainStrategy) in D:\VisualProjects\Donatelo-Api\Donatelo.Api\CommonController.cs:line 30
+29/10/2024 2:57:26 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): Sintaxis incorrecta cerca de '*'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters) in D:\VisualProjects\Donatelo-Api\ConexionBD\Conexion.cs:line 62
+   at Data.Users.DatauserDeleteById.Process() in D:\VisualProjects\Donatelo-Api\Data.Users\DatauserDeleteById.cs:line 23
+   at ConexionBD.DataStrategy.Execute() in D:\VisualProjects\Donatelo-Api\ConexionBD\DataStrategy.cs:line 20
+ClientConnectionId:cf228960-c358-4368-907d-56a1b14ea806
+Error Number:102,State:1,Class:15
+29/10/2024 2:57:26 p. m.: FATAL: ConexionBD.StrategyException: El proceso no finalizó en excepción
+   at ConexionBD.MainStrategy.get_Exception() in D:\VisualProjects\Donatelo-Api\ConexionBD\MainStrategy.cs:line 56
+   at Donatelo.Api.CommonController.Execute(MainStrategy mainStrategy) in D:\VisualProjects\Donatelo-Api\Donatelo.Api\CommonController.cs:line 30
+29/10/2024 3:00:58 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): Sintaxis incorrecta cerca de '*'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters) in D:\VisualProjects\Donatelo-Api\ConexionBD\Conexion.cs:line 62
+   at Data.Users.DatauserDeleteById.Process() in D:\VisualProjects\Donatelo-Api\Data.Users\DatauserDeleteById.cs:line 23
+   at ConexionBD.DataStrategy.Execute() in D:\VisualProjects\Donatelo-Api\ConexionBD\DataStrategy.cs:line 20
+ClientConnectionId:4b774af5-89ad-4442-81d8-65519400abf9
+Error Number:102,State:1,Class:15
+29/10/2024 3:01:40 p. m.: FATAL: ConexionBD.StrategyException: El proceso no finalizó en excepción
+   at ConexionBD.MainStrategy.get_Exception() in D:\VisualProjects\Donatelo-Api\ConexionBD\MainStrategy.cs:line 56
+   at Donatelo.Api.CommonController.Execute(MainStrategy mainStrategy) in D:\VisualProjects\Donatelo-Api\Donatelo.Api\CommonController.cs:line 30

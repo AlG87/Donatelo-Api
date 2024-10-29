@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Bunisess.Users\Bunisess.Users.csproj" />
+    <ProjectReference Include="..\Business.Publications\Business.Publications.csproj" />
     <ProjectReference Include="..\ConexionBD\ConexionBD.csproj" />
     <ProjectReference Include="..\Data.Users\Data.Users.csproj" />
     <ProjectReference Include="..\Donatelo.Api.Entities\Donatelo.Api.Entities.csproj" />
