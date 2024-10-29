@@ -132,3 +132,98 @@ Error Number:137,State:2,Class:15
 25/10/2024 4:17:38 p. m.: FATAL: ConexionBD.StrategyException: El proceso no finalizó en excepción
    at ConexionBD.MainStrategy.get_Exception() in D:\VisualProjects\Donatelo.Api\Donatelo-Api\ConexionBD\MainStrategy.cs:line 56
    at Donatelo.Api.CommonController.Execute(MainStrategy mainStrategy) in D:\VisualProjects\Donatelo.Api\Donatelo-Api\Donatelo.Api\CommonController.cs:line 30
+29/10/2024 12:17:29 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): Must declare the scalar variable "@ImagenUrlwhere".
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters) in C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\Conexion.cs:line 62
+   at Data.Users.DataUserUpdateById.Process()
+   at ConexionBD.DataStrategy.Execute() in C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\DataStrategy.cs:line 20
+ClientConnectionId:c731d8b4-ca78-4d27-a05c-cf3e7ec35bee
+Error Number:137,State:2,Class:15
+29/10/2024 12:38:15 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Contraseña', table 'DonateloDbOficial.dbo.usuarios'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters) in C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\Conexion.cs:line 62
+   at Data.Users.DataUserUpdateById.Process()
+   at ConexionBD.DataStrategy.Execute() in C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\DataStrategy.cs:line 20
+ClientConnectionId:de2a912d-649c-49c6-9114-1b1acf1cbb86
+Error Number:515,State:2,Class:16
+29/10/2024 12:42:41 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK__usuarios__Rol__3B75D760". The conflict occurred in database "DonateloDbOficial", table "dbo.roltype", column 'RolId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters) in C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\Conexion.cs:line 62
+   at Data.Users.DataUserUpdateById.Process() in C:\Users\asus\Desktop\ApiDonatelo\donatelo\Data.Users\DataUserUpdateById.cs:line 60
+   at ConexionBD.DataStrategy.Execute() in C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\DataStrategy.cs:line 20
+ClientConnectionId:dc825934-f70e-47f8-b621-fb9962792426
+Error Number:547,State:0,Class:16
+29/10/2024 12:47:59 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK__usuarios__Rol__3B75D760". The conflict occurred in database "DonateloDbOficial", table "dbo.roltype", column 'RolId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters) in C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\Conexion.cs:line 62
+   at Data.Users.DataUserUpdateById.Process()
+   at ConexionBD.DataStrategy.Execute() in C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\DataStrategy.cs:line 20
+ClientConnectionId:dc825934-f70e-47f8-b621-fb9962792426
+Error Number:547,State:0,Class:16
+29/10/2024 12:48:23 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK__usuarios__Rol__3B75D760". The conflict occurred in database "DonateloDbOficial", table "dbo.roltype", column 'RolId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters) in C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\Conexion.cs:line 62
+   at Data.Users.DataUserUpdateById.Process()
+   at ConexionBD.DataStrategy.Execute() in C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\DataStrategy.cs:line 20
+ClientConnectionId:dc825934-f70e-47f8-b621-fb9962792426
+Error Number:547,State:0,Class:16
+29/10/2024 12:52:50 p. m.: FATAL: System.Data.SqlClient.SqlException (0x80131904): The UPDATE statement conflicted with the FOREIGN KEY constraint "FK__usuarios__Rol__3B75D760". The conflict occurred in database "DonateloDbOficial", table "dbo.roltype", column 'RolId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ConexionBD.Conexion.ExecuteNonQuery(String query, Dictionary`2 parameters) in C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\Conexion.cs:line 62
+   at Data.Users.DataUserUpdateById.Process()
+   at ConexionBD.DataStrategy.Execute() in C:\Users\asus\Desktop\ApiDonatelo\donatelo\ConexionBD\DataStrategy.cs:line 20
+ClientConnectionId:dc825934-f70e-47f8-b621-fb9962792426
+Error Number:547,State:0,Class:16

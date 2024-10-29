@@ -14,56 +14,61 @@ namespace Data.Users
         {
             this.user = user;
         }
+
         public override void Process()
         {
-            string query = @"UPDATE usuarios set ";
+            var setClauses = new List<string>();
+            var parameters = new Dictionary<string, object> { { "@usuarioid", user.UsuarioId } };
 
-            bool nombreEstaVacio = user.Nombre == null;
-            bool correoEstaVacio = user.Correo == null;
-            bool contraseñaEstaVacio = user.Contraseña == null;
-            bool rolEstaVacio = user.Rol == null;
-            bool imagenEstaVacio = user.ImagenUrl == null;
+            if (!string.IsNullOrEmpty(user.Nombre))
+            {
+                setClauses.Add("Nombre = @nombre");
+                parameters.Add("@nombre", user.Nombre);
+            }
 
-            if (!nombreEstaVacio) 
+            if (!string.IsNullOrEmpty(user.Correo))
             {
-                query += "Nombre = @nombre";
+                setClauses.Add("Correo = @correo");
+                parameters.Add("@correo", user.Correo);
             }
-            if (!correoEstaVacio)
-            {
-                if (!nombreEstaVacio) query += ",";
-                query += "Correo = @Correo";
-            }
-            if (contraseñaEstaVacio)
-            {
-                if (!correoEstaVacio) query += ",";
-                query += ",Contraseña = @Contraseña";
-            }
-            if (rolEstaVacio)
-            {
-                if (!contraseñaEstaVacio) query += ",";
-                query += "Rol = @Rol";
-            }
-            if (imagenEstaVacio)
-            {
-                if (!rolEstaVacio) query += ",";
-                query += "ImagenUrl = @ImagenUrl";
-            }
-            query += "where UsuarioId = @usuarioid";
 
-
-            Dictionary<string, object> parameters = new Dictionary<string, object>
+            if (!string.IsNullOrEmpty(user.Contraseña))
             {
-                { "@usuarioid", user.UsuarioId },
-                { "@nombre", user.Nombre },
-                { "@Correo", user.Correo },
-                { "@Contraseña", user.Contraseña },
-                { "@Rol", user.Rol },
-                { "@ImagenUrl", user.ImagenUrl },
+                setClauses.Add("Contraseña = @contraseña");
+                parameters.Add("@contraseña", user.Contraseña);
+            }
 
-            };
+            if (user.Rol != null && IsValidRole(user.Rol))
+            {
+                setClauses.Add("Rol = @rol");
+                parameters.Add("@rol", user.Rol);
+            }
+
+            if (!string.IsNullOrEmpty(user.ImagenUrl))
+            {
+                setClauses.Add("ImagenUrl = @imagenUrl");
+                parameters.Add("@imagenUrl", user.ImagenUrl);
+            }
+
+            if (setClauses.Count == 0)
+            {
+                throw new InvalidOperationException("No se especificaron campos para actualizar.");
+            }
+
+            string query = $"UPDATE usuarios SET {string.Join(", ", setClauses)} WHERE UsuarioId = @usuarioid";
+
             int result = ExecuteNonQuery(query, parameters);
-
             SetResult(result);
+        }
+
+
+        private bool IsValidRole(int roleId)
+        {
+            string query = "SELECT COUNT(1) FROM roltype WHERE RolId = @RolId";
+            Dictionary<string, object> parameters = new Dictionary<string, object> { { "@RolId", roleId } };
+            int count = ExecuteNonQuery(query, parameters);
+
+            return count > 0;
         }
     }
 }

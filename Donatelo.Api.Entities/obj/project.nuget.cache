@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HS1lZSNAieoFesRFhd426bXWyqdxVxpFxaKKSH4j4OS7H0/TVApjklVPebWoJyqB89TnfiI2XY6dinayXnBuBA==",
+  "dgSpecHash": "uSp/rBNaYrQ=",
   "success": true,
-  "projectFilePath": "D:\\VisualProjects\\Donatelo.Api\\Donatelo-Api\\Donatelo.Api.Entities\\Donatelo.Api.Entities.csproj",
+  "projectFilePath": "C:\\Users\\asus\\Desktop\\ApiDonatelo\\donatelo\\Donatelo.Api.Entities\\Donatelo.Api.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
