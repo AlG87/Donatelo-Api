@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Donatelo.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ea7989d2047133ab52ce3bc1e43ad8c0978e97c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc7e8355e9897ddfe64e6abee0ea46c18ad63f65")]
 [assembly: System.Reflection.AssemblyProductAttribute("Donatelo.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Donatelo.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

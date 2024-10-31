@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Data.Publications
 {
-    public class DataPublicationCreate : Conexion
+    public class DataPublicationCreate 
     {
         private readonly PublicacionDto publication;
 

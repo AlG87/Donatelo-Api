@@ -518,7 +518,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "ConexionBD >= 1.0.0",
       "Data.Users >= 1.0.0",
       "Donatelo.Api.Entities >= 1.0.0"
     ]
@@ -552,9 +551,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\asus\\Desktop\\ApiDonatelo\\Donatelo v3\\ConexionBD\\ConexionBD.csproj": {
-              "projectPath": "C:\\Users\\asus\\Desktop\\ApiDonatelo\\Donatelo v3\\ConexionBD\\ConexionBD.csproj"
-            },
             "C:\\Users\\asus\\Desktop\\ApiDonatelo\\Donatelo v3\\Data.Users\\Data.Users.csproj": {
               "projectPath": "C:\\Users\\asus\\Desktop\\ApiDonatelo\\Donatelo v3\\Data.Users\\Data.Users.csproj"
             },

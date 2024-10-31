@@ -5,7 +5,7 @@ using System;
 
 namespace Business.Publications
 {
-    public class BusinessPublicationCreate : BusinessStrategy
+    public class BusinessPublicationCreate 
     {
         private readonly PublicacionDto publication;
 

@@ -11,7 +11,7 @@ namespace Donatelo.Api.Entities
         public int SedeId { get; set; }
         public string Nombre { get; set; }
         public string Direccion { get; set; }
-        public int Stock { get; set; }
+        public string Telefono { get; set; }
         public string ImagenUrl { get; set; }
     }
 }
