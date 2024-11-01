@@ -82,10 +82,8 @@ D:\VisualProjects\Donatelo-Api\Bunisess.Users\obj\Debug\net8.0\Bunisess.Users.pd
 D:\VisualProjects\Donatelo-Api\Bunisess.Users\bin\Debug\net8.0\Bunisess.Users.deps.json
 D:\VisualProjects\Donatelo-Api\Bunisess.Users\bin\Debug\net8.0\Bunisess.Users.dll
 D:\VisualProjects\Donatelo-Api\Bunisess.Users\bin\Debug\net8.0\Bunisess.Users.pdb
-D:\VisualProjects\Donatelo-Api\Bunisess.Users\bin\Debug\net8.0\ConexionBD.dll
 D:\VisualProjects\Donatelo-Api\Bunisess.Users\bin\Debug\net8.0\Data.Users.dll
 D:\VisualProjects\Donatelo-Api\Bunisess.Users\bin\Debug\net8.0\Donatelo.Api.Entities.dll
-D:\VisualProjects\Donatelo-Api\Bunisess.Users\bin\Debug\net8.0\ConexionBD.pdb
 D:\VisualProjects\Donatelo-Api\Bunisess.Users\bin\Debug\net8.0\Data.Users.pdb
 D:\VisualProjects\Donatelo-Api\Bunisess.Users\bin\Debug\net8.0\Donatelo.Api.Entities.pdb
 D:\VisualProjects\Donatelo-Api\Bunisess.Users\obj\Debug\net8.0\Bunisess.CE0C4D03.Up2Date

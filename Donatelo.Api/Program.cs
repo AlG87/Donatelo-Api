@@ -15,7 +15,7 @@ namespace Donatelo.Api
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            var connectionString = builder.Configuration.GetConnectionString("ConexionDB");
+            var connectionString = builder.Configuration.GetConnectionString("ConexionDBAlejo");
             builder.Services.AddDbContext<AppdbContext>(
                 options => options.UseSqlServer(connectionString)
                 );

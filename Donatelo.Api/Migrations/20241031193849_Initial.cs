@@ -27,6 +27,36 @@ namespace Donatelo.Api.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_DonacionId", x => x.DonacionId);
+                    table.ForeignKey(
+                        name: "Fk_donanteid",
+                        column: x => x.DonanteId,
+                        principalTable:"usuarios",
+                        principalColumn:"UsuarioId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "Fk_beneficiadoid",
+                        column: x => x.BeneficiadoId,
+                        principalTable: "usuarios",
+                        principalColumn: "UsuarioId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "Fk_publicacionid",
+                        column: x => x.PublicacionId,
+                        principalTable: "Publicaciones",
+                        principalColumn: "PublicacionId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "Fk_sedeid",
+                        column: x => x.sedeid,
+                        principalTable: "Sedes",
+                        principalColumn: "SedeId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "Fk_estadoDonacionid",
+                        column: x => x.Estado,
+                        principalTable: "EstadoDonacion",
+                        principalColumn: "EstadoID",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -83,6 +113,18 @@ namespace Donatelo.Api.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_PublicacionId", x => x.PublicacionId);
+                    table.ForeignKey(
+                         name: "Fk_usuarioid",
+                         column: x => x.UsuarioId,
+                         principalTable: "usuarios",
+                         principalColumn: "UsuarioId",
+                         onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "Fk_estadoid",
+                        column: x => x.Estado,
+                        principalTable: "EstadoPublicacion",
+                        principalColumn: "EstadoID",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -125,6 +167,24 @@ namespace Donatelo.Api.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_SolicitudId", x => x.SolicitudId);
+                    table.ForeignKey(
+                        name: "Fk_donacionid",
+                        column: x => x.donacionid,
+                        principalTable: "Donaciones",
+                        principalColumn: "DonacionId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "Fk_benficiadoid",
+                        column: x => x.beneficiadoid,
+                        principalTable: "usuarios",
+                        principalColumn: "UsuarioId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "Fk_estadoid",
+                        column: x => x.Estado,
+                        principalTable: "EstadoPublicacion",
+                        principalColumn: "EstadoID",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -141,6 +201,12 @@ namespace Donatelo.Api.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_UsuarioId", x => x.UsuarioId);
+                    table.ForeignKey(
+                        name: "Fk_roltypeId",
+                        column: x => x.Rol,
+                        principalTable: "roltype",
+                        principalColumn: "RolId",
+                        onDelete: ReferentialAction.Cascade);
                 });
         }
 

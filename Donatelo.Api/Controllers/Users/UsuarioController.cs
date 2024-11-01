@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using Donatelo.Api.Context;
+using Donatelo.Api.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Donatelo.Api.Context;
-using Donatelo.Api.Entities;
 
 namespace Donatelo.Api.Controllers.Users
 {
